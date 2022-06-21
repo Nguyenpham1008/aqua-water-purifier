@@ -1,10 +1,11 @@
 import "./styles.css";
+import Header from "./components/header/index.js";
+import Banner from "./components/banner/index.js";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Testing connection</h2>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Header />
+    <Banner />
+  </div>
+);
+export default App;
