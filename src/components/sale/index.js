@@ -4,8 +4,11 @@ import Item from "./item";
 
 const Sales = () => (
   <div className="text-center bg-slate-100 p-4">
-    <p className="md:text-3xl text-2xl font-medium ">Ưu đãi</p>
+    <p className="md:text-3xl text-2xl font-medium md:pt-5 md:font-bold">
+      Ưu đãi
+    </p>
     <div
+      className=" md:py-20 md:px-20"
       style={{
         display: "flex",
         justifyContent: "space-around",

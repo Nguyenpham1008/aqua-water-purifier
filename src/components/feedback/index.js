@@ -15,9 +15,14 @@ import guest8Img from "../../assests/khach8.jpg";
 
 export default function TitlebarBelowMasonryImageList() {
   return (
-    <div className="text-center bg-sky-50">
-      <p className="md:text-3xl text-2xl font-medium py-4 "> Khách hàng </p>
-      <Box sx={{ width: "100%", height: 450, overflowY: "scroll" }}>
+    <div className="text-center bg-sky-50 ">
+      <p className="md:text-3xl text-2xl font-medium py-4 md:font-bold md:pt-5 ">
+        Khách hàng
+      </p>
+      <Box
+        className="md:py-20"
+        sx={{ width: "100%", height: 450, overflowY: "scroll" }}
+      >
         <ImageList variant="masonry" cols={3} gap={8}>
           {itemData.map((item) => (
             <ImageListItem key={item.img}>

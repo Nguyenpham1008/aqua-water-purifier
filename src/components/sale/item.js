@@ -29,14 +29,14 @@ const drawerWidth = {
   width: "100px",
   height: "100px",
   "@media (min-width: 780px)": {
-    width: "150px",
-    height: "150px",
+    width: "200px",
+    height: "200px",
   },
 };
 
 const Item = ({ message, type }) => (
   <div
-    className="pt-3 md:pt-0"
+    className="pt-3 md:pt-0 w-1/2 md:w-1/4"
     style={{
       display: "flex",
       flexDirection: "column",
@@ -44,7 +44,7 @@ const Item = ({ message, type }) => (
     }}
   >
     <Avatar alt="Remy Sharp" src={getImage(type)} sx={drawerWidth} />
-    <p className="font-medium">{message}</p>
+    <p className="font-medium md:text-2xl">{message}</p>
   </div>
 );
 
