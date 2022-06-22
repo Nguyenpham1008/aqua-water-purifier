@@ -5,7 +5,6 @@ import Item from "./item";
 const Sales = () => (
   <div
     style={{
-      paddingTop: 520,
       display: "flex",
       justifyContent: "space-around",
       flexWrap: "wrap",

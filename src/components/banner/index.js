@@ -3,33 +3,35 @@ import React from "react";
 import bannerImg from "../../assests/banner.jpeg";
 
 const Banner = () => (
-  <div>
+  <div style={{ position: "relative", paddingBottom: 20 }}>
     <img
       style={{
         width: "100%",
         height: "auto",
-        position: "absolute",
         maxHeight: 500,
       }}
       src={bannerImg}
     />
 
     <div
+      className="pt-10"
       style={{
         display: "flex",
         alignItems: "center",
         flexDirection: "column",
         zIndex: 100,
         position: "absolute",
-        left: 0,
-        right: 0,
+        top: "20%",
+        left: "50%",
+        transform: "translate(-50%, -50%)",
       }}
     >
-      <p>Đại lý chuyên phân phối các dòngg máy lọc nước AQUA</p>
-      <p style={{ fontSize: 20, fontWeight: "bold" }}>
+      <p className="md:text-2xl text-sm text-blue-700">
+        Đại lý chuyên phân phối các dòng máy lọc nước AQUA
+      </p>
+      <p className="md:text-2xl font-bold pt-2 text-blue-700">
         TP.HCM, ĐỒNG NAI, BÌNH DƯƠNG
       </p>
-      <div className="font-bold">hello</div>
     </div>
   </div>
 );

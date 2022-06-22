@@ -24,20 +24,25 @@ const getImage = (type) => {
     // code block
   }
 };
+
+const drawerWidth = {
+  width: "100px",
+  height: "100px",
+  "@media (min-width: 780px)": {
+    width: "150px",
+    height: "150px",
+  },
+};
+
 const Item = ({ message, type }) => (
   <div
     style={{
       display: "flex",
       flexDirection: "column",
-      gap: 10,
       alignItems: "center",
     }}
   >
-    <Avatar
-      alt="Remy Sharp"
-      src={getImage(type)}
-      sx={{ width: 150, height: 150 }}
-    />
+    <Avatar alt="Remy Sharp" src={getImage(type)} sx={drawerWidth} />
     {message}
   </div>
 );
