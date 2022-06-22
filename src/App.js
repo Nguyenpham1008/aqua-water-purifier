@@ -6,6 +6,7 @@ import Banner from "./components/banner/index.js";
 import Sales from "./components/sale/index.js";
 import Feedbacks from "./components/feedback/index.js";
 import Products from "./components/product/index.js";
+import Footer from "./components/footer/index.js";
 
 const App = () => (
   <div>
@@ -16,6 +17,7 @@ const App = () => (
     <Products />
     <Sales />
     <Feedbacks />
+    <Footer />
   </div>
 );
 
