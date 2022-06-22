@@ -8,6 +8,7 @@ const Sales = () => (
       paddingTop: 520,
       display: "flex",
       justifyContent: "space-around",
+      flexWrap: "wrap",
     }}
   >
     <Item message="Rẻ nhất thị trường" type="price" />

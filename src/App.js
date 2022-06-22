@@ -1,4 +1,5 @@
-import "./styles.css";
+import logo from "./logo.svg";
+import "./App.css";
 
 import Header from "./components/header/index.js";
 import Banner from "./components/banner/index.js";

@@ -25,12 +25,11 @@ const Banner = () => (
         right: 0,
       }}
     >
-      <p style={{ fontSize: 20 }}>
-        Đại lý chuyên phân phối các dòng máy lọc nước AQUA
-      </p>
+      <p>Đại lý chuyên phân phối các dòngg máy lọc nước AQUA</p>
       <p style={{ fontSize: 20, fontWeight: "bold" }}>
         TP.HCM, ĐỒNG NAI, BÌNH DƯƠNG
       </p>
+      <div className="font-bold">hello</div>
     </div>
   </div>
 );

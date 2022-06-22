@@ -1,5 +1,7 @@
 import React from "react";
 
+import Avatar from "@mui/material/Avatar";
+
 import priceImg from "../../assests/best_price.jpg";
 import gopLaiSuatImg from "../../assests/buyer.jpg";
 import warrantyImg from "../../assests/warranty.png";
@@ -31,7 +33,11 @@ const Item = ({ message, type }) => (
       alignItems: "center",
     }}
   >
-    <img src={getImage(type)} style={{ width: 200 }} />
+    <Avatar
+      alt="Remy Sharp"
+      src={getImage(type)}
+      sx={{ width: 150, height: 150 }}
+    />
     {message}
   </div>
 );
