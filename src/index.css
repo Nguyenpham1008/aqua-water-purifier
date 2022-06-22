@@ -43,13 +43,13 @@ code {
 /* The company logo */
 
 .footer-distributed h3{
-	color:  #ffffff;
+	color:  lightseagreen;
 	font: normal 36px 'Open Sans', cursive;
 	margin: 0;
 }
 
 .footer-distributed h3 span{
-	color:  lightseagreen;
+	color:  #ffffff;
 }
 
 /* Footer links */

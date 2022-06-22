@@ -5,9 +5,7 @@ import logoImg from "../../assests/logo.jpg";
 const Footer = () => (
   <footer class="footer-distributed">
     <div class="footer-left">
-      <h3>
-        Company<span>logo</span>
-      </h3>
+      <h3>AQUA</h3>
 
       <p class="footer-company-name"> © 2022</p>
     </div>
