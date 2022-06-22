@@ -21,7 +21,7 @@ export default function TitlebarBelowMasonryImageList() {
       </p>
       <Box
         className="md:py-20"
-        sx={{ width: "100%", height: 450, overflowY: "scroll" }}
+        sx={{ width: "100%", height: 800, overflowY: "scroll" }}
       >
         <ImageList variant="masonry" cols={3} gap={8}>
           {itemData.map((item) => (
