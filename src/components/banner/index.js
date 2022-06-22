@@ -3,7 +3,7 @@ import React from "react";
 import bannerImg from "../../assests/banner.jpeg";
 
 const Banner = () => (
-  <div style={{ position: "relative", paddingBottom: 20 }}>
+  <div style={{ position: "relative" }}>
     <img
       style={{
         width: "100%",
@@ -14,7 +14,7 @@ const Banner = () => (
     />
 
     <div
-      className="pt-10"
+      className=""
       style={{
         display: "flex",
         alignItems: "center",
@@ -26,7 +26,7 @@ const Banner = () => (
         transform: "translate(-50%, -50%)",
       }}
     >
-      <p className="md:text-2xl text-sm text-blue-700">
+      <p className="md:text-2xl text-xs text-blue-700">
         Đại lý chuyên phân phối các dòng máy lọc nước AQUA
       </p>
       <p className="md:text-2xl font-bold pt-2 text-blue-700">

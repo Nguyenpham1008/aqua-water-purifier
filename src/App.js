@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/header/index.js";
 import Banner from "./components/banner/index.js";
 import Sales from "./components/sale/index.js";
+import Feedbacks from "./components/feedback/index.js";
 
 const App = () => (
   <div>
@@ -12,6 +13,7 @@ const App = () => (
       <Banner />
     </div>
     <Sales />
+    <Feedbacks />
   </div>
 );
 
