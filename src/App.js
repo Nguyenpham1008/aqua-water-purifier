@@ -12,6 +12,7 @@ const App = () => (
   <div>
     <div className="App" style={{ display: "flex", flexDirection: "column" }}>
       <Header />
+      <Banner />
     </div>
     <Products />
     <Sales />
